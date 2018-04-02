@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Tab links--->
+  <div class="tab">
+    <button class="tablinks" onclick="openConsultation(event, 'Consultation')">Upcoming</button>
+    <button class="tablinks" onclick="openConsultation(event, 'Pending')">Pending</button>
+    <button class="tablinks" onclick="openConsultation(event, 'Book')">Book</button>
+  </div>
+  <!--Tab content--->
+  <div id="Upcoming" class="tabcontents">
+    <h1>Upcoming</h1>
+  </div>
+  <div id="Pending" class="tabcontents">
+    <h1>Pending</h1>
+  </div>
+  <div id="Book" class="tabcontents">
+    <h1>Book</h1>
+  </div>
+	<div id="container" style="width:100%;">
+    <div id="left" style="float:left; width:50%">Teachers</div>
+    <div id="right" style="float:right; width:50%;">Students</div>
+  </div>
+  
