@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+.login_div {
+  box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+#header_para{
+	padding-top: 10%;
+	font-size: 400%;
+	color: black;
+	margin-bottom: 0;
+}
+
+#card{
+	font-family:'Raleway', sans-serif;
+	opacity: .7;
+	font-size: 200%;
+}
+
+.input_style:focus{width:80% !important}
+.input_style{
+	-webkit-transition:width 0.4s ease-in-out;transition:width 0.4s ease-in-out;
+	width: 50%;
+	height: 40px;
+	background-color: black;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	padding-left: 10px;
+	color: white;
+}
+
+#login_button{
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 10%;
+	outline: none;
+	background-color: whi;
+	transition: 400ms ease-in-out;
+}
+
+#login_button:hover{
+	background-color: #1a495b;
+	color: white;
+}
+a {
+	font-size: 120%;
+	color: black;
+} 
