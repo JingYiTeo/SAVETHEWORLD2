@@ -1,21 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Tab links--->
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Consultations</a>
-  <a href="#">Pending</a>
-  <a href="#">Profile</a>
+<body>
+<div class="split left">
+  <div class="centered">
+    <a href="#"><font color="White">Teachers</a></font>
+  </div>
 </div>
-
-<!-- Use any element to open the sidenav -->
-<span onclick="openNav()">Menu</span>
-<div id="container" style="width:100%;">
-<div id="left" style="float:left; width:50%">Teachers</div>
-<div id="right" style="float:right; width:50%;">Students</div>
-</div>
+<div class="split right">
+  <div class="centered">
+    <a href="#">Students</a>
+  </div>
+  </div>
+  </head>
+  </html>
   
