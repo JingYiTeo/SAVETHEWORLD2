@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title>Teacher's Name</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+  
+  <body>
+          <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Consultation</a>
+  <a href="#">Booking</a>
+  <a href="#">Pending</a>
+</div>
+      <span onclick="openNav()"><i class="material-icons" style="font-size:60px;color:white;">book</i></span>
+      <div id="main">
+</div>
+  <center>
+    <div class="Booking_div">
+      <p id="header_para" class="title"><b>Students</b><span id="card">D'Book</span></p>
+ <form action="">
+   <input type="time" name="time" placeholder="Enter Timing" required class="input_style w3-animate-right"><br /><br />
+    <input type="date" name="date" placeholder="Enter Date" required class="input_style w3-animate-right"><br /><br />
+    <input type="text" name="class" placeholder="Enter Class" required class="input_style w3-animate-right"><br /><br />
+    <input type="text" name="subject" placeholder="Enter Subject" required class="input_style w3-animate-right"><br /><br />
+    <input type="text" name="topic" placeholder="Enter Topic" required class="input_style w3-animate-right"><br /><br />
+    <input type="number" name="number" placeholder="Enter No. of Students" required class="input_style w3-animate-right"><br /><br />
+    <input type="submit" name="confirm_button" value="CONFIRM" id="login_button" class="w3-animate-bottom"><br />
+    <input type="reset" name="reset_button" value="CANCEL" id="reset_button" class="w3-animate-bottom"><br />
+      </form>
+     </div>
+     </center>
+    </body>
